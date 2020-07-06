@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DEMO OF FORMS</title>
+</head>
+<body>
+	<h1>A SIMPLE FORM</h1>
+<form action="www.google.com">
+	<!-- 2 attributes:  -->
+	<!-- action->where form data will be sent -->
+	<!-- method->what HTTP method(get/post) -->
+	<!-- default is get -->
+	<h3>Login</h3>
+	<label>
+		Username:
+		<input name="Username" type="email" placeholder="username" required="true">
+	</label>
+	<label>
+		Password:
+		<input name="Password" type="password" placeholder="password" required="true">
+	</label>
+	<input type="submit">
+	<br><br>
+	<p>Do you like ice or fire??</p>
+	<label for="ice">ICE:</label>
+	<input name="ice/fire" id="ice" type="radio" vale="ice">
+	<label for="fire">FIRE:</label>
+	<input name="ice/fire" id="fire" type="radio" value="fire">
+	<br>
+	<p1>CHOOSE GENDER</p1>
+	<select name="gender">
+		<option value="f">FEMALE</option>
+		<OPTION value="m">MALE</OPTION>
+		<OPTION value="o">OTHER</OPTION>
+	</select>
+	<br>
+	<textarea name="para" rows="10" cols="20" placeholder="PLEASE DESCRIBE YOUR Interests!!!"></textarea>
+	<button>SUBMIT</button>
+</form>
+</body>
+</html>
