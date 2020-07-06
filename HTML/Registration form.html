@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+</head>
+<body>
+<H1>Register</H1>
+<form action="www.google.com">
+	<div>
+	<label for="first name">First Name:</label>
+	<input id="first name" type="text" name="name" placeholder="John" required>
+	<label for="last name">Last Name:</label>
+	<input id="last name" type="text" name="name" placeholder="Smith" required>
+	</div>
+	<div>
+	<label for="male">Male</label>
+	<input id="male" type="radio" name="Gender" value="M">
+	<label for="female">Female</label>
+	<input id="female" type="radio" name="Gender" value="F">
+	<label for="other">Other</label>
+	<input id="other" type="radio" name="Gender" value="O">
+	</div>
+	<div>
+	<label for="mail">Email:</label>
+	<input id="mail" type="email" name="emailid" required>
+	<label for="pass">Password:</label>
+	<input id="pass" type="Password" name="password" pattern=".{5,10}" required title="Enter 5 to 10 character password!!!">
+	</div>
+	<div>BIRTHDAY:
+	<select name="Month">
+		<option>JAN</option>
+		<option>FEB</option>
+		<option>MAR</option>
+	</select>
+
+	<select name="Day">
+		<option>01</option>
+		<option>02</option>
+		<option>03</option>
+	</select>
+
+	<select name="Year">
+		<option>2000</option>
+		<option>2001</option>
+		<option>2002</option>
+	</select>
+	</div>
+	<br>
+	<label>I agree to the terms and conditions</label>
+	<input type="checkbox" name="tc" required="true">
+	<br>
+	<button>Submit</button>
+</form>
+</body>
+</html>
