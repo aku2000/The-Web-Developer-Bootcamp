@@ -36,6 +36,10 @@ a[href="http://www.google.com"] {
 	background: blue;
 }
 
+input[type="checkbox"] {
+	background: aqua;
+}
+
 /*nth of type*/
 
 li:nth-of-type(odd){
