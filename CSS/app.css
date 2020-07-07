@@ -1,9 +1,22 @@
 h1 {
-	color: orange;
+	color: deeppink;
+	border:7px dashed pink;
 }
 h4 {
 	color: aqua;
 }
 li {
-	color: green;
+	color: rgba(18, 226, 239 , 0.8);
+	border-color: yellow;
+	border-width: 5px;
+	border-style:solid;
 }
+body {
+	/*background: url(https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	background: rgba(146, 9, 210,0.4)
+}
+
+/* Borders in CSS:
+width,color,style*/

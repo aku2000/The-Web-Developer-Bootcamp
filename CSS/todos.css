@@ -1,0 +1,12 @@
+body {
+	background: pink;
+}
+#id1 {					/*for ids, one same id per page*/ 
+	color: blue;
+	border: 2px solid purple;
+	background: aqua;
+}
+.highlight {					/*for class*/
+	background: yellow;
+	text-decoration: overline;
+}
