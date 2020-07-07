@@ -1,0 +1,39 @@
+body {
+	color:blue;
+}
+ul {
+	color:aqua;
+	border:2px dashed red;
+}
+li {
+	color:deeppink;
+}
+#s1 {
+	color:black;
+}
+.high {
+	color:green;
+}
+
+
+/*type selectors*/
+li {
+
+}
+li a {
+
+}
+li + a{
+
+}
+/*class,atributes and pseudo class selctors*/
+.hello{
+
+}
+input[type="text"]{
+
+}
+/*id selectors*/     /*--->more specificity*/
+#hello{
+
+}
