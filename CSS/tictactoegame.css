@@ -1,0 +1,41 @@
+h1 {
+	text-align: center;
+}
+table {
+	/*border-spacing: unset;*/
+	margin: auto;
+    border-collapse: collapse;
+}
+#id1 {
+	border-right:1px solid black;
+	border-bottom: 1px solid black;
+	width: 50px;
+	height: 50px;
+}
+#id3 {
+	border-left:1px solid black;
+	border-bottom: 1px solid black;
+	width: 50px;
+	height: 50px;
+}
+#id5 {
+	border-right:1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+	width: 50px;
+	height: 50px;
+}
+#id7 {
+	border-top:1px solid black;
+	border-right: 1px solid black;
+	width: 50px;
+	height: 50px;
+}
+#id9 {
+	border-top:1px solid black;
+	border-left: 1px solid black;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+}
