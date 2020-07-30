@@ -12,6 +12,7 @@ mongoose
 	.catch((error) => console.log(error.message));
 
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static("public"));
 app.set("view engine", "ejs");
 
 //SCHEMA SETUP
