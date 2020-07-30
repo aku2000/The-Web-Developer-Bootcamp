@@ -1,0 +1,32 @@
+<%- include("partials/header") %>
+<div class="ui main container">
+    <div class="ui huge header">RESTful Blog App</div>
+    <div class="ui top attached segment">
+        <div class="ui divided items">
+            <% blogs.forEach(function(x){ %>
+            <div class="item">
+                <div class="image">
+                    <img src="<%= x.image %>" alt="">
+                </div>
+                <div class="content">
+                    <a href="/blogs/<%=x._id %>" class="header"><%= x.title %></a>
+                    <div class="meta">
+                        <span><%= x.created.toDateString() %></span>
+                    </div>
+                    <div class="description">
+                        <p><%- x.body.substring(0,100) %> ...</p>
+                    </div>
+                    <div class="extra">
+                        <a href="/blogs/<%=x._id %>" class="ui floated basic violet button">
+                            Read More
+                            <i class="right chevron icon"></i>
+                        </a>
+                    </div>
+                </div>                
+            </div>
+            <% }); %>
+        </div>
+    </div>
+</div>
+
+<%- include("partials/footer") %>
