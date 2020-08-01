@@ -1,6 +1,7 @@
 var express = require("express");
 var app = express();
 var bodyParser = require("body-parser");
+var Campground = require("./models/campground");
 
 const mongoose = require("mongoose");
 mongoose
@@ -14,15 +15,6 @@ mongoose
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
-
-//SCHEMA SETUP
-var campgroundschema = new mongoose.Schema({
-	name: String,
-	image: String,
-	description: String
-});
-
-var Campground = mongoose.model("Campground", campgroundschema);
 
 // Campground.create(
 // 	{
